@@ -8,9 +8,18 @@ body {
 }
 main {
     background-image: url("./amazon page/assets/images/bg-image.png");
-    padding: 20px;
+    padding: 50px;
+    margin: auto;
+    font-size: 25px;
+    display: block;
+    pointer-events: none;
+    position: cover;
 }
-
+main p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 15px;
+}
 /* Navbar */
 .navbar {
     background-color: #232f3e;
