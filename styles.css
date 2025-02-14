@@ -6,6 +6,10 @@ body {
     background-color: #ffffff;
     text-align: center;
 }
+main {
+    background-image: url("./amazon page/assets/images/bg-image.png");
+    padding: 20px;
+}
 
 /* Navbar */
 .navbar {
@@ -33,13 +37,26 @@ body {
 
 .pop{
     background-color: #ff9900;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
     color: white;
-    padding: 15px;
+    margin: 0;
+}
+.banner{
+    text-align: center;
+    color: white;
+    position: cover;
+    margin: 0;
 }
 section {
-    background-image: url("./Amazon Page/bg-image.png");
     color: rgb(0, 0, 0);
     font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
 
 }
 section h2{
