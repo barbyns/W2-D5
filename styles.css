@@ -74,10 +74,7 @@ section h2{
     margin-bottom: 10px;
 }
 .gift-options {
-    max-width: 1000px;
-    margin: 20px auto;
     background: white;
-    padding: 20px;
     border-radius: 10px;
     text-align: left;
 
@@ -96,8 +93,12 @@ h2 {
     text-align: left;
 }
 .gift-item img {
-    width: 150px;
     border-radius: 10px;
+    display: inline-block;
+    max-width: 200px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
 }
 
 .gaming, .audio {
